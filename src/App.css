@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.header {
+  height: 74px;
+  padding: 0 16px;
+  background-color: #428fca;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  line-height: 74px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 54px 135px 48px 16px;
+  background-color: #f5f5f5;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.controls span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.controls select {
+  width: 220px;
+  padding: 14px 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 23px;
+}
+
+svg {
+  display: block;
+  margin-top: 30px;
+}
+
+text {
+  font-size: 18px;
+}
+
+.point {
+  transition: cx 0.7s ease, cy 0.7s ease, opacity 0.3s ease;
+}
+
+.legend {
+  cursor: pointer;
+}
+
+.legend text {
+  font-size: 22px;
+  user-select: none;
+}
